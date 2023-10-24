@@ -14,15 +14,15 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='robu',
-    maintainer_email='robu@todo.todo',
+    maintainer_email='muelen19@htl-kaindorf.at',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ex1_wallfollower = robu.ex1_wallfollower:main'
-            'mypublisher = robu.publisher_member_function:main'
-            'mysubscriber = robu.subscriber_member_function:main'
-        ],
-    },
+            'wallfollower = robu.ex1_wallfollower:main',
+            'mypublisher = robu.publisher:main',
+            'mysubscriber = robu.subscriber:main'
+        ]
+    }
 )
