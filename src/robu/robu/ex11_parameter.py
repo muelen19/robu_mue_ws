@@ -37,7 +37,7 @@ class MinimalParameter(Node):
                                %(forward_speed_wf_slow, forward_speed_wf_slow))
         self.get_logger().info('turning_speed_wf_slow: %5.2f turning_speed_wf_fast: %5.2f'
                                %(turning_speed_wf_slow, turning_speed_wf_slow))
-        self.get_logger().info('dist_thresh_wf: %5.2f dist_hysteresis_wf: %5.2f'
+        self.get_logger().info('dist_thresh_wf:        %5.2f dist_hysteresis_wf:    %5.2f'
                                %(dist_thresh_wf, dist_hysteresis_wf))
 
 
