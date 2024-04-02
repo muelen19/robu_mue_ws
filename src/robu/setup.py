@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'robu'
@@ -10,7 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ['share ']
+        (os.path.join('share', package_name, 'launch'), glob('launch/*launch_li.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
