@@ -1,0 +1,14 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/robu/work/robu_mue_ws/install/robu_interfaces/local/lib/python3.10/dist-packages",
+    "/home/robu/work/robu_mue_ws/install/robu/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/robu/work/robu_mue_ws/install/robu_interfaces/local/lib/python3.10/dist-packages",
+    "/home/robu/work/robu_mue_ws/install/robu/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ]
+}
